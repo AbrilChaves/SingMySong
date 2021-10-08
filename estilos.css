@@ -1,0 +1,165 @@
+body {
+    background-image: radial-gradient(circle, #ff99d3, #eb9cdf, #d5a0e7, #bda3ec, #a5a6ec, #979ee8, #8896e4, #778ee0, #7479d8, #7661cc, #7c46bd, #8321aa);
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    margin: 0;
+    font-family: 'raleway';
+}
+
+h1 {
+    font-family: 'Raleway';
+    font-size: 7rem;
+    color:rgb(206, 181, 245);
+    color: white;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding-top: 33px;
+    padding-bottom: 28px;
+    color: white;
+    font-size: 45px;
+}
+
+p {
+    margin-bottom: 0.6em;
+    text-align: center;
+}
+
+.container {
+    width: 75%;
+    max-width: 950px;
+    margin: 0 auto;
+    color: #8321aadc;
+    text-align: center;
+    font-family: 'raleway';
+}
+
+.header {
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color:#fff;
+}
+
+.logo {
+    letter-spacing: 8px;
+    font-size: 30px;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover {
+    background: #8321aace;
+}
+
+.main {
+    padding-top:100px;
+}
+
+#parrafo {
+    font-size: 35px;
+    line-height: 50px;
+    color: white;
+    text-shadow: 0.5em 0.5em 0.9em #8321aa;
+}
+
+.text {
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    background-color:rgb(14, 167, 108);
+    cursor: pointer;
+    margin: auto;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.text-2 {
+    position: relative;
+    display: inline-block;
+    padding: 30px 85px;
+    color: white;
+    background-color:rgb(14, 167, 108);
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 20px;
+    margin-top: 120px;
+    margin-bottom: 200px;
+}
+
+.container3 {
+    color: white;
+    font-family: 'raleway';
+}
+
+#contactos {
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+img {
+    height: 100px;
+}
+
+.ig {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wsp {
+    color: white;
+}
+
+.footer {
+    background: #8321aa;
+    padding: 3.5rem 0;
+    text-align: center;
+    margin-top: 8rem;
+}
+

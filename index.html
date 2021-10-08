@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SingMySong - Cursos de canto</title>
+    <link rel="icon" type="microfono.jpg" href="microfono.jpg">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css3-animate-it-master\css\animations.css">
+  </head>
+<body>
+
+<header class="header">
+      <div class="container logo-nav-container">
+        <a href="index.html" class="logo">SingMySong</a>
+        <nav class="navigation">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#dos">Quienes somos</a></li>
+            <li><a href="pagina2.html">Inscripcion</a></li>
+            <li><a href="#contactos">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+</header>
+
+<div class="col-6 content-center scroll-banner">
+  <div class="item-center">
+    <div class="main">
+      <div class="container">
+        <div  class='animatedParent' data-appear-top-offset='-10'>
+          <h1 id="title1" class='animated bounceInLeft'>Bienvenid@ a SingMySong</h1>
+          <p><b>Una plataforma hecha para todos aquellos que quieran desarrollarse en el canto.</b></p><br><br><br><br><br><br>
+        </div>
+        <div id="uno">
+          <div class="text">
+            <a href="#dos"><h2 class="text">QUIENES SOMOS</h2></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<br><div id="dos"><br><br><br><hr color=white size=1 width=400>
+    <div class="main">
+      <div class="container">
+         <div  class='animatedParent' data-appear-top-offset='-10'>
+           <p id="parrafo" class='animated bounceInUp'>SingMySong es una plataforma que ofrece cursos personalizados basandonos en tu edad, tus gustos y tus tiempos. Podes optar por las clases virtuales o presenciales. No necesitas conocimientos previos (aunque tambien tenemos un curso para aquellos que esten mas avanzados) y si sabes tocar un instrumento podemos sumarlo a las clases. Entendemos que no todos los cantantes tienen un mismo objetivo, por lo que tambien nos comprometemos a adaptar las clases a vos. Buscamos darte las herramientas que necesites para ser cada vez mejor en el canto. ¡Sumate!</p>
+          </div>
+         </div>
+       </div>
+    </div>
+  </div>
+
+    <br><br><br><br><br><hr color=white size=1 width=400><br>
+
+    <h3>ENCONTRANOS EN:</h3>
+<div id="contactos">
+  <div class="contacto">
+    <a href="https://www.instagram.com/abrilchaves_/?hl=es" target=_BLANK><img src="instagram3.jpg" alt="Instagram" class="ig"><div class="ig">@abrilchaves_</div></a>
+  </div>
+  <br><br><br>
+  <div class="contacto2">
+    <a href="https://wa.link/xpc3mi" target=_BLANK><img src="whatsapp3.jpg" alt="Whatsapp"><div class="wsp">+54 9 1134753508</div></a>
+  </div>
+</div>
+
+
+<footer class="footer">
+  <div class="container3">
+    <p>Desarrollado por Abril Chaves</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<script type="text/javascript" src="css3-animate-it-master\js\css3-animate-it.js"></script>
+</body>
+</html>
+
